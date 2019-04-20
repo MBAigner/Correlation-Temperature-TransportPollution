@@ -1,0 +1,15 @@
+Output (contained in /proj/output):
+ - analysis_data.csv
+   The first line describes the header of the file
+   Each row contains comma-separated values (year;avg yearly temperature;pollution indicator for NMVOCs)
+   The temperature is measured in Celsius degrees
+   The pollution indicator shows the value of the EU pollution index for NMVOCs (based on year 200, where indicator=100)
+   
+Figures (contained in /proj/figures):
+- temperature_pollution_linechart.jpg and temperature_pollution_tend.jpg
+  The x axis shows the years reaching from 1990 to 2016
+  The y axis shows the min-max scaled values (interval between 0 and 1) of the average temperature (in Celsius degrees) 
+  and the EU pollution indicator for NMVOCs (value based on year 2000 where the indicator is 100 in the original data)
+- temperature_pollution_heatmap.jpg:
+  The color of the fields shows the color representation of the Pearson correlation coefficient
+  The values reach from -1 to 1 (blue to red on the color scale)
