@@ -1,12 +1,12 @@
 # Correlation between the yearly average temperature of Innsbruck with the pollution emissions of NMVOCs from transport in Austria
 
-##Experiment overview
+## Experiment overview
 
 In this experiment, the question if the emissions of non-methane volatile organic compounds from transport in Austria have an influence on the yearly average temperature in Innsbruck will be treated.
 
 This is done by comparing the trends of transport emissions and average temperature, as well as obtaining the correlation between those two variables.
 
-##Folder structure
+## Folder structure
 
 * ```src```: Contains functions defined for loading and preprocessing the temperature and pollution data that are called in the main file ```analysis.R```.
 * ```data```: Contains all input sources, more detailed descriped in the next section.
@@ -14,17 +14,17 @@ This is done by comparing the trends of transport emissions and average temperat
 * ```figures```: Contains all plots produced by this experiment.
 * ```analysis.R```: This is the main file of this application, that executes every step needed for this experiment.
 
-##Input data
+## Input data
 
 Input data has been obtained from Open Data Austria and the EU Open Data Portal. Both data sets are freely available under the Creative Commons (CC BY 3.0) licence.
 
-###Temperature
+### Temperature
 
 For the average temperature of Innsbruck, the data provided under Open Data Austria (https://www.data.gv.at/katalog/dataset/5eb8278a-4ecf-41e2-a1f8-03383f31af7d) was in use.
 
 This data contains the average temperature in Celsius measured in Innsbruck of each month in a certain year, in a time interval between 1971 and 2016.
 
-###Pollution
+### Pollution
 
 For the transport pollution emission indicator, data provided by the EU Open Data Portal (http://data.europa.eu/euodp/en/data/dataset/gZmNXFTZrjPyK3EHPykmpg) was used.
 
