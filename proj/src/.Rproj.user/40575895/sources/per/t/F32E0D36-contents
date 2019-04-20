@@ -1,0 +1,50 @@
+######################################
+# Load and preprocess data sets
+######################################
+
+# Firstly, we define the time interval (in years) that we want to observe
+begin <- 1990
+end <- 2016
+
+######################################
+# 1.) Temperature
+
+temperature <- read.csv2("../data/monatsmitteltemperaturen-ab-1971.csv")
+names(temperature) <- c("Year", "January", "February", "March", "April", "May", "June", "July", 
+                        "August", "September", "October", "November", "December", "avg")
+# Preview of original data
+head(temperature)
+
+# Remove years that are not included in expenditures and remove avg (will be calculated
+# more exactly afterwards)
+temperature <- temperature[temperature$Year >= begin & temperature$Year <= end, -14]
+
+# Calculate more accurate average of temperature for a year
+temperature$avgTemperature <- rowMeans(temperature[, -1])
+
+# Remove monthly values
+temperature <- temperature[, c(1, 14)]
+
+
+######################################
+# 2.) Air pollution indicator
+
+# Get just the first row (contains the indicator for Austria) and
+# remove its name
+pollution <- read.delim("../data/t2020_rk300.tsv", header = T,
+                        stringsAsFactors = F)[1, -1]
+
+# The data contains sometimes spaces additionally to a tab as a separator,
+# so we need to make all values numeric.
+for(j in 1:ncol(pollution)){
+  pollution[,j] <- as.numeric(pollution[,j])
+}
+
+######################################
+# Combine data
+data <- cbind(temperature, t(pollution))
+names(data) <- c("Year", "avgTemperature", "pollutionIndicator")
+
+# Store final data set
+write.csv2(data, file = "../data/combined_data.csv",
+           row.names = F, quote = F)
