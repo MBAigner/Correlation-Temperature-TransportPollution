@@ -4,6 +4,7 @@ Output (contained in /proj/output):
    Each row contains comma-separated values (year;avg yearly temperature;pollution indicator for NMVOCs)
    The temperature is measured in Celsius degrees
    The pollution indicator shows the value of the EU pollution index for NMVOCs (based on year 200, where indicator=100)
+   The data covers the years from 1990 to 2016
    
 Figures (contained in /proj/figures):
 - temperature_pollution_linechart.jpg and temperature_pollution_tend.jpg
