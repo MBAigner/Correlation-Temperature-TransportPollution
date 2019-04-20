@@ -14,6 +14,18 @@ This is done by comparing the trends of transport emissions and average temperat
 * ```figures```: Contains all plots produced by this experiment.
 * ```analysis.R```: This is the main file of this application, that executes every step needed for this experiment.
 
+## How to run the code
+
+The following software and libraries (+ their versions) for it have to be installed. The code also runs with older and newer versions, but to ensure the same results this ones are suggested:
+
+* R version 3.5.1
+* ```ggcorrplot``` version 0.1.2
+* ```ggplot2``` version 2.2.1
+* ```dplyr``` version 0.7.7
+* ```tidyr``` version 0.8.2
+
+The script can be started from the root directory with the command  ```Rscript proj/analysis.R ```.
+
 ## Input data
 
 Input data has been obtained from Open Data Austria and the EU Open Data Portal. Both data sets are freely available under the Creative Commons (CC BY 3.0) licence.
