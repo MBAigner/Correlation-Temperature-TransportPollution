@@ -20,13 +20,13 @@ Input data has been obtained from Open Data Austria and the EU Open Data Portal.
 
 ### Temperature
 
-For the average temperature of Innsbruck, the data provided under Open Data Austria (https://www.data.gv.at/katalog/dataset/5eb8278a-4ecf-41e2-a1f8-03383f31af7d) was in use.
+For the average temperature of Innsbruck, the data provided under Open Data Austria (https://www.data.gv.at/katalog/dataset/5eb8278a-4ecf-41e2-a1f8-03383f31af7d, accessed on 20.04.2019) was in use.
 
 This data contains the average temperature in Celsius measured in Innsbruck of each month in a certain year, in a time interval between 1971 and 2016.
 
 ### Pollution
 
-For the transport pollution emission indicator, data provided by the EU Open Data Portal (http://data.europa.eu/euodp/en/data/dataset/gZmNXFTZrjPyK3EHPykmpg) was used.
+For the transport pollution emission indicator, data provided by the EU Open Data Portal (http://data.europa.eu/euodp/en/data/dataset/gZmNXFTZrjPyK3EHPykmpg, accessed on 20.04.2019) was used.
 
 This data contains the indicator of the European Union for emissions produced by transport, the main contributor to air pollution. It includes emissions from *nitrogen oxides (NOx)*, *non-methane volatile organic compounds (NMVOCs)* and *particulate matter (PM10)* and is an index to the year 2000 (indicator = 100 for this year). The values are reported under the UNECE Convention on Long-Range Transboundary Air Pollution (CLRTAP).
 
