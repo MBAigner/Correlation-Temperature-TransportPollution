@@ -11,9 +11,9 @@
 	</dc:description>
 	<dc:date>20.04.2019</dc:date>
 <dc:type>DataGeneration</dc:type>
-<dc:format>TODO</dc:format>
-<dc:source>TODO</dc:source>
-<dc:source>TODO</dc:source>
+<dc:format>R</dc:format>
+<dc:source>TODO: Source 1</dc:source>
+<dc:source>TODO: Source 2</dc:source>
 <dc:language>English</dc:language>
 <dc:coverage>1990 - 2016</dc:coverage>
 <dc:rights>Free access</dc:rights>
