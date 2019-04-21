@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>RES_RK300IP_A</ID>
+        <Test>false</Test>
+        <Name>RES_RK300IP_A_4D_2017_0000 (t2020_rk300_esmsip2)</Name>
+        <Prepared>2019-01-07T11:54:35</Prepared>
+        <Sender id="4D0">
+            <Contact/>
+        </Sender>
+        <DataSetID>RES_RK300IP_A_1546858475349</DataSetID>
+        <DataSetAction></DataSetAction>
+        <Extracted></Extracted>
+        <ReportingBegin>2017-01-01T00:00:00</ReportingBegin>
+        <ReportingEnd>2017-12-31T00:00:00</ReportingEnd>
+        <DataSetAgency>ESTAT</DataSetAgency>
+    </Header>
+    <genericmetadata:MetadataSet>
+        <genericmetadata:MetadataStructureRef>ESMSIP2_MSD</genericmetadata:MetadataStructureRef>
+        <genericmetadata:MetadataStructureAgencyRef>ESTAT</genericmetadata:MetadataStructureAgencyRef>
+        <genericmetadata:ReportRef>ESMSIP_REPORT_V2</genericmetadata:ReportRef>
+        <genericmetadata:AttributeValueSet>
+            <genericmetadata:TargetRef>FULL_ESMS</genericmetadata:TargetRef>
+            <genericmetadata:TargetValues>
+                <genericmetadata:ComponentValue component="TIME_PERIOD" object="TimeDimension">2017-A0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATA_PROVIDER" object="DataProvider">4D0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATAFLOW" object="DataFlow">RES_RK300IP_A:1.0</genericmetadata:ComponentValue>
+            </genericmetadata:TargetValues>
+            <genericmetadata:ReportedAttribute conceptID="CONTACT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_ORGANISATION">
+                    <genericmetadata:Value>&lt;p&gt;Eurostat, Statistical Office of the European Union&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ORGANISATION_UNIT">
+                    <genericmetadata:Value>&lt;p&gt;E2: Environmental statistics and accounts; sustainable development&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_NAME">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FUNCT">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_MAIL">
+                    <genericmetadata:Value>&lt;p&gt;2920 Luxembourg LUXEMBOURG&lt;/p&gt;
+&lt;p&gt;e-mail contact: &lt;a href="mailto:ESTAT-RESOURCE-EFFICIENCY@ec.europa.eu" target="_blank"&gt;ESTAT-RESOURCE-EFFICIENCY@ec.europa.eu&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_EMAIL">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_PHONE">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FAX">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="META_UPDATE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="META_CERTIFIED">
+                    <genericmetadata:Value>12/11/2018</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_POSTED">
+                    <genericmetadata:Value>06/12/2018</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_LAST_UPDATE">
+                    <genericmetadata:Value>06/12/2018</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="RELEVANCE">
+                <genericmetadata:Value>&lt;p&gt;The indicator is part of the Resource Efficiency Scoreboard. It is used to monitor progress towards a resource efficient Europe (i.e. the implementation of the Europe 2020 Resource Efficient Flagship initiative) on the thematic objective of 'ensuring efficient mobility' included in the specific theme 'Key areas'.&lt;/p&gt;
+&lt;p&gt;The objective of 'ensuring efficient mobility', among other topics, aims to reduce the negative impact of transport on the environment. No specific emission reduction target or objective exists for transport-related emissions. However, emission ceiling targets for total NOx, SOx, NMVOC and NH3 emissions are specified in both the EU &lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2001:309:0022:0030:EN:PDF" target="_blank"&gt;National Emission Ceilings Directive&lt;/a&gt; (NEC Directive) and the &lt;a href="http://www.unece.org/fileadmin/DAM/env/lrtap/full%20text/1999%20Multi.E.Amended.2005.pdf" target="_blank"&gt;Gothenburg protocol&lt;/a&gt; under the CLRTAP (UNECE 1999). Following the &lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:152:0001:0044:EN:PDF" target="_blank"&gt;Directive on ambient air quality and cleaner air for Europe (2008/50/EC)&lt;/a&gt;, a number of limit values (e.g. hourly limit values) have been set for the atmospheric concentrations of main pollutants, including SOx, NOx, air borne particulate matter (PM10, PM2.5), lead, CO, benzene and ozone. Limits have been set at levels that should prevent or reduce harmful effects on health and ecosystems. Although aiming at the reduction of greenhouse gas emissions the &lt;a href="https://ec.europa.eu/clima/policies/strategies/2020_en" target="_blank"&gt;2020 EU climate and energy package&lt;/a&gt; will also influence the emissions of air pollutants from the transport sector. In some countries national standards also apply.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="INDICATOR">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="DATA_DESCR">
+                    <genericmetadata:Value>&lt;p&gt;Emissions from transport are the main contributor to air pollution. This indicator analyses the transport emissions of nitrogen oxides (NOx), non-methane volatile organic compounds (NMVOCs) and particulate matter (PM10), with data provided annually starting from 1990. The indicator is an index to year 2000 (index 2000 = 100).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Emissions are officially reported under the UNECE Convention on Long-Range Transboundary Air Pollution (CLRTAP) to the EMEP Programme (Co-operative Programme for Monitoring and Evaluation of the Long-Range Transmission of Air pollutants in Europe). The pollutants can be grouped into acidifying substances, particulates and ozone precursors. NOx, the leading pollutant from transport, contributes to acidification, formation of ground level ozone and particulate formation.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;No specific emission reduction target or objective exists for transport-related emissions. However, emission ceiling targets are specified in both the EU National Emission Ceilings Directive (NEC Directive) and the Gothenburg protocol under the CLRTAP (UNECE 1999). Following the Directive on ambient air quality and cleaner air for Europe (2008/50/EC), a number of limit values (e.g. hourly limit values) have been set for the atmospheric concentrations of main pollutants, including SOx, NOx, air borne particulate matter (PM10, PM2.5), lead, CO, benzene and ozone.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;More information can be found in the European Union emission inventory reports to the United Nations Economic Commission for Europe (UNECE) Convention on Long-range Transboundary Air Pollution (CLRTAP). Such reports are published annually and compiled by the &amp;lt;a href=https://www.eea.europa.eu//publications/european-union-emission-inventory-report-1&amp;gt;European Environment Agency (EEA)&amp;lt;/a&amp;gt; in cooperation with the EU Member States.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="UNIT_MEASURE">
+                    <genericmetadata:Value>&lt;p&gt;Index (2000 = 100).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REF_PERIOD">
+                    <genericmetadata:Value>&lt;p&gt;Calendar year.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ACCURACY_OVERALL">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Indicator from non-ESS source. For assessment of accuracy please refer to the original source (see link to external data source and metadata in &amp;ldquo;Annexes&amp;rdquo;).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE_ORG">
+                        <genericmetadata:Value>&lt;p&gt;EEA&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE_COMMENT">
+                        <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data source: European Environment Agency (EEA)&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Data provider: EEA &lt;a href="https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-convention-on-long-range-transboundary-air-pollution-lrtap-convention-12" target="_blank"&gt;National emissions reported to the Convention on Long-range Transboundary Air Pollution (LRTAP Convention)&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="FREQ_TIMELINESS">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="FREQ_DISS">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="FREQ_DISS_GRADE">
+                        <genericmetadata:Value>Every year</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="FREQ_DISS_COMMENT">
+                        <genericmetadata:Value>&lt;p&gt;Indicator is updated annually.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="TIMELINESS">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="TIMELINESS_GRADE">
+                        <genericmetadata:Value>T+2 years</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="TIMELINESS_COMMENT">
+                        <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;New data points are disseminated within two years after the reference year.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COVERAGE_COMPARABILITY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REF_AREA">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="REF_AREA_GRADE">
+                        <genericmetadata:Value>All EU MS</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="REF_AREA_COMMENT">
+                        <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data are presented for all EU Member states.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The EU-28 aggregate is also available.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO_GRADE">
+                        <genericmetadata:Value>&lt; 75% EU MS</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO_COMMENT">
+                        <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data are comparable between all EU Member States except some countries&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME_GRADE">
+                        <genericmetadata:Value>&gt; 10 years</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME_COMMENT">
+                        <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Presented time series starts in 1990.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME">
+                    <genericmetadata:Value></genericmetadata:Value>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME_GRADE">
+                        <genericmetadata:Value>&gt; 4 data points</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                    <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME_COMMENT">
+                        <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Length of comparable time series without methodological break is longer than 4 data points.&lt;/p&gt;</genericmetadata:Value>
+                    </genericmetadata:ReportedAttribute>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCESSIBILITY_CLARITY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="PUBLICATIONS">
+                    <genericmetadata:Value>&lt;p&gt;&lt;a href="http://ec.europa.eu/environment/resource_efficiency/targets_indicators/scoreboard/index_en.htm" target="_blank"&gt;Reports on the indicators of the Resource Efficiency Scoreboard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2011:0021:FIN:EN:PDF" target="_blank"&gt;A resource-efficient Europe &amp;ndash; Flagship initiative under the Europe 2020 Strategy (Communication COM(2011) 21)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2011:0571:FIN:EN:PDF" target="_blank"&gt;A Roadmap towards a Resource Efficient Europe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;EEA, &lt;a href="https://www.eea.europa.eu/data-and-maps/indicators/transport-emissions-of-air-pollutants-8/transport-emissions-of-air-pollutants-5" target="_blank"&gt;Emissions of air pollutants from transport (TERM 003)&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ONLINE_DB">
+                    <genericmetadata:Value>&lt;p&gt;See table&amp;nbsp; &lt;a href="http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&amp;amp;init=1&amp;amp;language=en&amp;amp;pcode=t2020_rk300&amp;amp;plugin=1" target="_blank"&gt;t2020_rk300&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DISS_OTHER">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Eurostat dedicated section on &lt;a href="http://ec.europa.eu/eurostat/web/europe-2020-indicators/resource-efficient-europe" target="_blank"&gt;Europe 2020 - Resource Efficient Europe&lt;/a&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Eurostat, &lt;a href="http://ec.europa.eu/eurostat/web/environmental-data-centre-on-natural-resources/overview" target="_blank"&gt;Environmental Data Centre on Natural Resources&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMMENT_DSET">
+                <genericmetadata:Value>&lt;p&gt;&lt;strong&gt;Copyrights:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Copyright/licence_policy" target="_blank"&gt;Eurostat Copyright/License Policy&lt;/a&gt;&amp;nbsp;is applicable.&lt;br /&gt;&lt;a href="http://www.eea.europa.eu/legal/copyright" target="_blank"&gt;EEA standard re-use policy&lt;/a&gt;&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+        </genericmetadata:AttributeValueSet>
+        <genericmetadata:Annotations>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>Analysis associated with the Roadmap to a Resource Efficient Europe - Part I</common:AnnotationTitle>
+                <common:AnnotationURL>http://ec.europa.eu/environment/resource_efficiency/pdf/working_paper_part1.pdf</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>Analysis associated with the Roadmap to a Resource Efficient Europe - Part II</common:AnnotationTitle>
+                <common:AnnotationURL>http://ec.europa.eu/environment/resource_efficiency/pdf/working_paper_part2.pdf</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>European Union emission inventory report 1990–2016 under the UNECE Convention on Long-range Transboundary Air Pollution (LRTAP)</common:AnnotationTitle>
+                <common:AnnotationURL>https://www.eea.europa.eu/publications/european-union-emission-inventory-report-1</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>External data source and metadata</common:AnnotationTitle>
+                <common:AnnotationURL>https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-convention-on-long-range-transboundary-air-pollution-lrtap-convention-12</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>FOR_PUBLICATION</common:AnnotationType>
+                <common:AnnotationText>YES</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_METADATA</common:AnnotationType>
+                <common:AnnotationText>env_air_emis_esms</common:AnnotationText>
+                <common:AnnotationURL>http://ec.europa.eu/eurostat/cache/metadata/EN/env_air_emis_esms.htm</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_TABLE</common:AnnotationType>
+                <common:AnnotationText>t2020_rk300</common:AnnotationText>
+            </common:Annotation>
+        </genericmetadata:Annotations>
+    </genericmetadata:MetadataSet>
+</GenericMetadata>
