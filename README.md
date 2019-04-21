@@ -26,7 +26,7 @@ The following software and libraries (+ their versions) for it have to be instal
 * ```dplyr``` version 0.7.7
 * ```tidyr``` version 0.8.2
 
-The script can be started from the  ```proj ``` directory with the command  ```Rscript ./analysis.R```.
+The script can be started from the  ```proj ``` directory with the command  ```Rscript ./analysis.R```. Before that, the working directory of R has to be set to the ```proj ``` directory using the R command ```setwd <path-to-proj>```.
 
 ## Input data
 
