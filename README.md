@@ -27,7 +27,8 @@ The following software and libraries (+ their versions) for it have to be instal
 * ```tidyr``` version 0.8.2
 
 The script can be started from the  ```proj ``` directory with the command  ```Rscript ./analysis.R```. 
-Before that, the working directory of R has to be set to the ```proj ``` directory using the R command ```setwd(<path-to-proj>)``` when not executing the command within the same directory.
+
+Before that, the working directory of R has to be set to the ```proj ``` directory using the R command ```setwd(<path-to-proj>)``` when not executing the command within the ```proj ``` directory.
 
 ## Input data
 
